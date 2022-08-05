@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('assets/04n.jpg'); */
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.app h4 {
+    text-align: center;
+    color: rgba(75, 94, 123, 0.824);
+}
+
+.login {
+    padding-top: 10rem;
+    color: rgb(255, 231, 235);
+    text-decoration: none;
+}
+
+.login:hover {
+    color: rgb(255, 224, 230);
+}
+
+a {
+    color: rgba(75, 94, 123, 0.824);
+}
+a:hover {
+    color: rgb(61, 60, 61);
+    text-decoration: none;
+}
+
+
+.app .search {
+    text-align: center;
+    padding: 1rem;
+}
+
+.app input {
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: rgba(73, 71, 71, 0.4);
+    color: rgb(white);
+}   
+
+::placeholder {
+    color: white;
+}
+
+.app {
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100vh; */
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    background: url('./assets/setbg.jpg') no-repeat center center/cover;
+}
+
+.container {
+    max-width: 700px;
+    /* height: 700px; */
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app .top {
+    width: 100%;
+    margin: 1rem auto;
+    min-height: 380px;
+}
+
+.app .description {
+    position: relative;
+    right: -90%;
+    transform-origin: 0 0;
+    transform: rotate(269deg);
+}
+
+.app .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(73, 71, 71, 0.2);    
+}
+
+@media screen and (max-width: 450px) {
+  .feels p {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .humidity p {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wind p {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.card-item {
+    background-color: rgb(255,255,255,.2);
+}
+
+.card.card-item {
+    background-color: rgb(rgba(115, 117, 118, 0.459));
+    text-align: center;
+}
+
+.form-group input {
+    color: rgb(51, 50, 50);
+}
+
+.form-group {
+    text-align: center;
+}
+
+#login-btn {
+   width: auto; 
+}
+
+#weather-btn {
+    width: auto;
+    justify-content: end;
+}
+
